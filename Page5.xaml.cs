@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace WPF_Kuznetsov_PR5
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page5.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page5 : Page
     {
-        public MainWindow()
+        public Page5()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window1 = new Window1();
-            window1.Show();
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            Window2 window2 = new Window2();
-            window2.Show();
         }
     }
 }
