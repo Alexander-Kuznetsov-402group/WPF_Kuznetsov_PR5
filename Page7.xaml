@@ -10,10 +10,10 @@
 
     <Grid>
         <Canvas>
-            <Label x:Name="label1" Content="Edit Case 1"  Foreground="Red" Canvas.Left="25" Canvas.Top="20"/>
+            <Label x:Name="label1" Content="Редактирование Case 1"  Foreground="Red" Canvas.Left="25" Canvas.Top="20"/>
             <TextBox Text="Textbox 1" Canvas.Left="25" Canvas.Top="55"/>
             <TextBox Text="Textbox 2" Canvas.Left="125" Canvas.Top="55"/>
-            <TextBlock Text="Grid" Width="307" Height="177" Canvas.Left="25" Canvas.Top="100" Foreground="Red" FontSize="50" HorizontalAlignment="Center" >
+            <TextBlock Text="Grid" Width="310" Height="180" Canvas.Left="25" Canvas.Top="100" Foreground="Red" FontSize="50" Padding="100, 50" >
                 <TextBlock.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White" Offset="0"/>
