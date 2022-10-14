@@ -10,20 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_Kuznetsov_PR5
 {
     /// <summary>
-    /// Логика взаимодействия для Window5.xaml
+    /// Логика взаимодействия для Page10.xaml
     /// </summary>
-    public partial class Window5 : Window
+    public partial class Page10 : Page
     {
-        public Window5()
+        public Page10()
         {
             InitializeComponent();
         }
-
-
     }
 }

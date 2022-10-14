@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="Задание 5" Height="450" Width="800">
     <Grid>
-        
+        <TabControl HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792">
+            <TabItem Header="Настройка сети" BorderBrush="White" Background="#27292e" Foreground="#838487">
+                <Grid Background="#27292e">
+                    <GroupBox Header="Натсройка Сети" BorderBrush="White" FontSize="15" Foreground="White" HorizontalAlignment="Left" Height="369" Margin="10,10,0,0" VerticalAlignment="Top" Width="186"/>
+                    <GroupBox Header="МД с сети" BorderBrush="White" FontSize="15" Foreground="White" HorizontalAlignment="Left" Height="369" Margin="201,10,0,0" VerticalAlignment="Top" Width="573">
+                        <Frame Source="Page10.xaml" Margin="0,25,0,0"/>
+                    </GroupBox>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Настройка МД" BorderBrush="White" Background="#27292e" Foreground="#838487">
+                <Grid Background="#27292e">
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
