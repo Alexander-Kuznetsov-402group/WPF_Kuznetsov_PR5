@@ -20,6 +20,8 @@
         <Canvas>
             <Button x:Name="button1" Content="Открыть задание 1" Height="25" Canvas.Top="75" Canvas.Left="100" Click="button1_Click"/>
             <Button x:Name="button2" Content="Открыть задание 2" Height="25" Canvas.Top="110" Canvas.Left="100" Click="button2_Click"/>
+            <Button x:Name="button3" Content="Открыть задание 3" Height="25" Canvas.Top="145" Canvas.Left="100" Click="button3_Click"/>
+            <Button x:Name="button4" Content="Открыть задание 4" Height="25" Canvas.Top="180" Canvas.Left="100" Click="button4_Click"/>
         </Canvas>
     </Grid>
     
